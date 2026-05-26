@@ -8,7 +8,7 @@
 ---
 
 ## 📖 Overview
-This bot allows compliance analysts to query complex Anti-Money Laundering (AML) and Anti-Terrorist Financing (ATF) rules. By using **Retrieval-Augmented Generation (RAG)**, the bot retrieves information directly from official FINTRAC documents, ensuring that every answer is grounded in source material and cited for auditability.
+This bot allows compliance analysts to query Anti-Money Laundering (AML) and Anti-Terrorist Financing (ATF) rules. By using **Retrieval-Augmented Generation (RAG)**, the bot retrieves information directly from official FINTRAC documents, ensuring that every answer is grounded in source material and cited for auditability.
 
 **Key Value:** 100% Data Sovereignty. No data leaves the local machine, eliminating the privacy risks associated with cloud-based LLMs in a banking environment.
 
@@ -53,6 +53,41 @@ Below are the strategic trade-offs made to ensure security and accuracy.
 - Python 3.10+
 
 ### Installation
-1. **Pull the Llama 3 model:**
-   ```bash
+1. Install Ollama and pull Llama 3:
+   ```
    ollama pull llama3
+   ```
+ 
+2. Set up Python environment:
+   ```
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+ 
+3. Add your FINTRAC PDFs to project1_rag_bot/docs/
+ 
+4. Ingest documents:
+   ```
+   python project1_rag_bot/ingest.py
+   ```
+
+5. Run the bot:
+   ```
+   python project1_rag_bot/rag_chain.py
+   ```
+ 
+   Or run the Slack interface (requires .env with Slack tokens):
+   ```
+   python project1_rag_bot/slack_bot.py
+   ```
+
+---
+
+## ✍️ Built By
+**Anthony Verissimo**  
+🔗 [LinkedIn](https://www.linkedin.com/in/tunjiv/)
+📧 [tunjiverissimo@gmail.com](mailto:tunjiverissimo@gmail.com)
+
+
+  
