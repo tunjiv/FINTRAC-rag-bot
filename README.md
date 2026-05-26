@@ -10,7 +10,6 @@
 ## 📖 Overview
 This bot allows compliance analysts to query Anti-Money Laundering (AML) and Anti-Terrorist Financing (ATF) rules. By using **Retrieval-Augmented Generation (RAG)**, the bot retrieves information directly from official FINTRAC documents, ensuring that every answer is grounded in source material and cited for auditability.
 
-**Key Value:** 100% Data Sovereignty. No data leaves the local machine, eliminating the privacy risks associated with cloud-based LLMs in a banking environment.
 
 ## 🛠️ Tech Stack
 - **LLM Orchestration:** LangChain
