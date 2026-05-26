@@ -1,4 +1,4 @@
-# 🇨🇦 FINTRAC Compliance AI Bot
+# FINTRAC Compliance AI Bot
 **A secure, local RAG-based Q&A system for Canadian AML/ATF regulatory guidance.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
