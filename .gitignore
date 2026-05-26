@@ -1,0 +1,10 @@
+.env
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+project1_rag_bot/docs/*.pdf
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
